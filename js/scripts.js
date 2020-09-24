@@ -1,19 +1,20 @@
 // Business Logic
 
-function add(number1, number2) {
-	return number1 + number2;
-}
+const add = function(number1, number2) {
+  return number1 + number2;
+};
 
-function subtract(number1, number2) {
-	return number1 - number2;
-}
-function multiply(number1, number2) {
+const subtract = function(number1, number2) {
+  return number1 - number2;
+};
+
+const multiply = function(number1, number2) {
   return number1 * number2;
-}
+};
 
-function divide(number1, number2) {
+const divide = function(number1, number2) {
   return number1 / number2;
-}
+};
 
 // User Interface Logic
 
@@ -27,6 +28,7 @@ $(document).ready(function() {
   });
 });
 
+/*
 $(document).ready(function() {
   $("form#subtract").submit(function(event) {
     event.preventDefault();  
@@ -57,9 +59,4 @@ $(document).ready(function() {
   });
 });
 
-/* const result = subtract(number1, number2);
-alert(result);
-const result = multiply(number1, number2);
-alert(result);
-const result = divide(number1, number2);
-alert(result); */
+*/
